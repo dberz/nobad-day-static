@@ -3,6 +3,10 @@
   "outputDirectory": "static-mirror",
   "rewrites": [
     {
+      "source": "/blogs/news/:slug",
+      "destination": "/blogs/news/:slug.html"
+    },
+    {
       "source": "/blogs/news",
       "destination": "/blogs/news.html"
     },
