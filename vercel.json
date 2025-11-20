@@ -1,7 +1,9 @@
 {
   "version": 2,
+  "framework": null,
   "buildCommand": "npm run mirror:exact",
   "outputDirectory": "static-mirror",
+  "installCommand": "npm install",
   "rewrites": [
     {
       "source": "/(.*)",
@@ -11,6 +13,17 @@
           "type": "header",
           "key": "accept",
           "value": "(text/html|application/xhtml\\+xml)"
+        }
+      ]
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*\\.(css|js|woff|woff2|ttf|otf|png|jpg|jpeg|gif|svg|webp|ico))",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
       ]
     }
