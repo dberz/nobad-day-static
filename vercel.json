@@ -1,24 +1,22 @@
 {
   "version": 2,
   "outputDirectory": "static-mirror",
-  "cleanUrls": false,
-  "trailingSlash": false,
   "rewrites": [
     {
       "source": "/blogs/news",
       "destination": "/blogs/news.html"
     },
     {
-      "source": "/products/(.*)",
-      "destination": "/products/$1.html"
+      "source": "/products/:slug",
+      "destination": "/products/:slug.html"
     },
     {
-      "source": "/pages/(.*)",
-      "destination": "/pages/$1.html"
+      "source": "/pages/:slug",
+      "destination": "/pages/:slug.html"
     },
     {
-      "source": "/collections/(.*)",
-      "destination": "/collections/$1.html"
+      "source": "/collections/:slug",
+      "destination": "/collections/:slug.html"
     },
     {
       "source": "/cart",
