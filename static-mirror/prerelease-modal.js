@@ -118,5 +118,12 @@
       window.history.replaceState({}, '', window.location.pathname);
     }, 500);
   }
+  
+  // Auto-show modal on About page after 10 seconds
+  if (window.location.pathname.includes('/pages/about') || window.location.pathname.includes('/about')) {
+    setTimeout(function() {
+      showModal();
+    }, 10000); // 10 seconds
+  }
 })();
 
