@@ -1,48 +1,28 @@
 {
   "version": 2,
   "outputDirectory": "static-mirror",
+  "cleanUrls": false,
+  "trailingSlash": false,
   "rewrites": [
     {
       "source": "/blogs/news",
       "destination": "/blogs/news.html"
     },
     {
-      "source": "/products/:product",
-      "destination": "/products/:product.html"
+      "source": "/products/(.*)",
+      "destination": "/products/$1.html"
     },
     {
-      "source": "/pages/:page",
-      "destination": "/pages/:page.html"
+      "source": "/pages/(.*)",
+      "destination": "/pages/$1.html"
     },
     {
-      "source": "/collections/:collection",
-      "destination": "/collections/:collection.html"
+      "source": "/collections/(.*)",
+      "destination": "/collections/$1.html"
     },
     {
       "source": "/cart",
       "destination": "/cart.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/$1.html",
-      "has": [
-        {
-          "type": "header",
-          "key": "accept",
-          "value": "(text/html|application/xhtml\\+xml)"
-        }
-      ]
-    }
-  ],
-  "headers": [
-    {
-      "source": "/(.*\\.(css|js|woff|woff2|ttf|otf|png|jpg|jpeg|gif|svg|webp|ico))",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
     }
   ]
 }
