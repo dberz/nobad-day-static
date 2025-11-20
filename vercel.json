@@ -1,7 +1,8 @@
 {
   "version": 2,
-  "framework": null,
+  "buildCommand": "echo 'No build needed - serving static files'",
   "outputDirectory": "static-mirror",
+  "installCommand": "echo 'Skipping install - no dependencies needed'",
   "rewrites": [
     {
       "source": "/(.*)",
