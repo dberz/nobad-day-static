@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://nobad.day/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://nobad.day/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://nobad.day/collections/all.atom"/>
+  <title>No Bad Days</title>
+  <updated>2024-05-10T13:31:33-04:00</updated>
+  <author>
+    <name>No Bad Days</name>
+  </author>
+  <entry>
+    <id>https://nobad.day/products/8488526807259</id>
+    <published>2024-05-10T13:31:33-04:00</published>
+    <updated>2024-05-10T13:31:33-04:00</updated>
+    <link rel="alternate" type="text/html" href="https://nobad.day/products/no-bad-days"/>
+    <title>No Bad Days</title>
+    <s:type></s:type>
+    <s:vendor>Explorer Health</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0612/5502/4859/files/No_Bad_Days_Square_v2.png?v=1720390859"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Explorer Health<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            44.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>14 individual stick packs.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://nobad.day/products/8488526807259</id>
+      <title>Default Title</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku></s:sku>
+      <s:grams>998</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://nobad.day/products/7452788326619</id>
+    <published>2021-11-20T16:27:32-05:00</published>
+    <updated>2021-11-20T16:27:32-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://nobad.day/products/k-balance"/>
+    <title>k balance</title>
+    <s:type></s:type>
+    <s:vendor>Explorer Health</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0612/5502/4859/products/kbalanceboth40120.png?v=1690722718"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Explorer Health<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            24.00 - 44.00
+            <a href="https://nobad.day/products/k-balance">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p class="p1">K balance is designed to act centrally within the brain to support a sense of tranquility in those who may feel worried or nervous by beneficially modulating the balance between the calming neurotransmitter, gamma-aminobutyric acid (GABA), and the excitatory neurotransmitter, glutamate.*<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space"></span>Key benefits:</p>
+<ul>
+<li>
+<meta charset="utf-8">EGCG, taurine, and NAC may help protect nerve cells and their mitochondria from harmful excitotoxic effects and other pro-oxidant influences.*</li>
+<li>NAC may help protect neurons and their mitochondria from oxidative stress as a precursor to glutathione, one of the body’s more powerful endogenously produced antioxidants.*</li>
+<li>Taurine, epigallocatechingallate (EGCG) from green tea leaf extract, and B6 may enhance the metabolism of GABA, a relaxing, inhibitory neurotransmitter.*<br>
+</li>
+<li>Vitamin B6 is a cofactor in the synthesis of GABA from glutamate.*</li>
+<li>
+<meta charset="utf-8">EGCG acts as a reactive oxygen and nitrogen species (RONS) scavenger, buffering neurons and their mitochondria against oxidative stress.*</li>
+<li>Magnesium may beneficially modulate the metabolism of glutamate by supporting calcium ion homeostasis.*</li>
+<li>Magnesium promotes relaxation.*</li>
+<li>
+<meta charset="utf-8">Research suggests that the amino acids N-acetylcysteine (NAC) and taurine may be able to cross the blood-brain barrier, a property critical to neuroprotection.*</li>
+</ul>
+<p>* This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<span class="Apple-converted-space"> </span><br></p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://nobad.day/products/7452788326619</id>
+      <title>10d</title>
+      <s:price currency="USD">24.00</s:price>
+      <s:sku>EH004</s:sku>
+      <s:grams>113</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://nobad.day/products/7452788326619</id>
+      <title>30d</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku>EH005</s:sku>
+      <s:grams>255</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://nobad.day/products/7452785639643</id>
+    <published>2021-11-20T16:25:42-05:00</published>
+    <updated>2021-11-20T16:25:42-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://nobad.day/products/m-balance"/>
+    <title>m balance</title>
+    <s:type></s:type>
+    <s:vendor>Explorer Health</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0612/5502/4859/products/mbalance3090.png?v=1690722706"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Explorer Health<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            24.00 - 44.00
+            <a href="https://nobad.day/products/m-balance">(2 variants)</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p>M balance is an advanced formula featuring clinically effective levels of L-5-HTP and L-theanine to support healthy levels of specific neurotransmitters. This formula is enhanced with standardized extracts of Asian ginseng and Chinese skullcap to target the stress response, cognition, and mood, which are closely intertwined.</p>
+<ul>
+<li>Specific B vitamins are added to support methylation, homocysteine metabolism, and healthy neurological function.*</li>
+<li>Supports healthy production of the neurotransmitters gamma-aminobutyric acid (GABA) and serotonin, with clinically effective levels of L-5-HTP and L-Theanine*</li>
+<li>L-Theanine is considered to have a calming effect*</li>
+<li>Provides Asian ginseng, an herbal adaptogen traditionally used to increase the body’s resistance to stress and promote a sense of well-being*</li>
+<li>Provides Chinese skullcap to help protect against oxidative stress, support healthy cytokine activity, and support central nervous system health *</li>
+<li>Supports healthy methylation, homocysteine metabolism, and neurological function with targeted B vitamins—including biologically active L-5-methyltetrahydrofolate (L-5-MTHF) and methylcobalamin*</li>
+</ul>
+<p>* This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.</p></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://nobad.day/products/7452785639643</id>
+      <title>10d</title>
+      <s:price currency="USD">24.00</s:price>
+      <s:sku>EH002</s:sku>
+      <s:grams>85</s:grams>
+    </s:variant>
+    <s:variant>
+      <id>https://nobad.day/products/7452785639643</id>
+      <title>30d</title>
+      <s:price currency="USD">44.00</s:price>
+      <s:sku>EH003</s:sku>
+      <s:grams>142</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://nobad.day/products/7452784787675</id>
+    <published>2021-11-20T16:24:54-05:00</published>
+    <updated>2021-11-20T16:24:54-05:00</updated>
+    <link rel="alternate" type="text/html" href="https://nobad.day/products/daily-support"/>
+    <title>daily neuroprotection</title>
+    <s:type></s:type>
+    <s:vendor>Explorer Health</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/0612/5502/4859/products/dailyneuroprotection90.png?v=1690722738"></td>
+    <td valign="bottom">
+      <p>
+
+        <strong>Vendor: </strong>Explorer Health<br>
+        <strong>Type: </strong><br>
+        <strong>Price: </strong>
+            39.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><meta charset="utf-8">Designed to act within the brain and nervous system, <em>Daily Neuroprotection</em> is an advanced formula that features significant levels of targeted ingredients to provide broad-spectrum support for neuroprotection and healthy cerebrovascular function.*<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">Recommended uses: </span></p>
+<ul>
+<li><span class="Apple-converted-space">Multidimensional neuroprotection support*</span></li>
+<li><span class="Apple-converted-space">Cerebrovascular support* </span></li>
+<li><span class="Apple-converted-space">Oxidative stress defense*</span></li>
+</ul>
+<p>Key benefits:</p>
+<ul>
+<li>Supports healthy cognitive function.* </li>
+<li>Supports the health of the central nervous system.* </li>
+<li>May help protect the brain and nervous system from oxidative stress.* </li>
+<li>Supports healthy mitochondrial function, methylation, homocysteine metabolism, and circulatory function—factors that may influence neurological health.* </li>
+<li>Features L-5-methyltetrahydrofolate, which research suggests may be able to cross the blood-brain barrier.* </li>
+</ul>
+<p>* This statement has not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.<br></p>
+<p>Gluten-Free and Non-GMP.</p>
+<h2></h2></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:variant>
+      <id>https://nobad.day/products/7452784787675</id>
+      <title>Default Title</title>
+      <s:price currency="USD">39.00</s:price>
+      <s:sku>EH001</s:sku>
+      <s:grams>142</s:grams>
+    </s:variant>
+  </entry>
+</feed>

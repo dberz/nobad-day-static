@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "buildCommand": "npm run mirror:exact",
+  "outputDirectory": "static-mirror",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/$1.html",
+      "has": [
+        {
+          "type": "header",
+          "key": "accept",
+          "value": "(text/html|application/xhtml\\+xml)"
+        }
+      ]
+    }
+  ]
+}

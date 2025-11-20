@@ -1,0 +1,29 @@
+{
+  "name": "nobad-day-static",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "mirror": "./mirror-full.sh",
+    "mirror:node": "node mirror-complete.mjs",
+    "mirror:simple": "node mirror-site-node.mjs",
+    "mirror:exact": "node mirror-complete-exact.mjs",
+    "fetch:blogs": "node fetch-blog-posts.mjs",
+    "serve:static": "node serve-static.mjs",
+    "preview": "node serve-static-mirror.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@types/react-dom": "^19.2.2",
+    "next": "^14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "typescript": "^5.9.3"
+  }
+}
