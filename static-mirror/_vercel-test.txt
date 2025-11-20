@@ -1,0 +1,5 @@
+This file confirms static-mirror directory is being deployed.
+Files should be accessible at:
+- /blogs/news.html
+- /products/no-bad-days.html
+- /pages/about.html
