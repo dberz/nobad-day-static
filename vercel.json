@@ -3,6 +3,26 @@
   "outputDirectory": "static-mirror",
   "rewrites": [
     {
+      "source": "/blogs/news",
+      "destination": "/blogs/news.html"
+    },
+    {
+      "source": "/products/:product",
+      "destination": "/products/:product.html"
+    },
+    {
+      "source": "/pages/:page",
+      "destination": "/pages/:page.html"
+    },
+    {
+      "source": "/collections/:collection",
+      "destination": "/collections/:collection.html"
+    },
+    {
+      "source": "/cart",
+      "destination": "/cart.html"
+    },
+    {
       "source": "/(.*)",
       "destination": "/$1.html",
       "has": [
