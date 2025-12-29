@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://nobad-day-static.vercel.app/sitemap.xml
+
