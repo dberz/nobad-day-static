@@ -60,7 +60,7 @@
         border: 1px solid var(--color-button-text, #000);
         border-radius: 4px;
         cursor: pointer;
-        font-size: 1rem;
+        font-size: 1.25rem;
         transition: all 0.2s;
       `;
       prevButton.disabled = currentPage === 1;
@@ -109,7 +109,7 @@
         if (startPage > 2) {
           const ellipsis = document.createElement('span');
           ellipsis.textContent = '...';
-          ellipsis.style.cssText = 'padding: 0 0.5rem;';
+          ellipsis.style.cssText = 'padding: 0 0.5rem; font-size: 1.25rem;';
           pageNumbers.appendChild(ellipsis);
         }
       }
@@ -124,7 +124,7 @@
         if (endPage < totalPages - 1) {
           const ellipsis = document.createElement('span');
           ellipsis.textContent = '...';
-          ellipsis.style.cssText = 'padding: 0 0.5rem;';
+          ellipsis.style.cssText = 'padding: 0 0.5rem; font-size: 1.25rem;';
           pageNumbers.appendChild(ellipsis);
         }
         pageNumbers.appendChild(createPageButton(totalPages));
@@ -169,15 +169,15 @@
       button.className = 'blog-pagination__page-number';
       const isActive = pageNum === currentPage;
       button.style.cssText = `
-        min-width: 2.5rem;
-        height: 2.5rem;
-        padding: 0 0.75rem;
+        min-width: 3rem;
+        height: 3rem;
+        padding: 0 1rem;
         background: ${isActive ? 'var(--color-button-text, #000)' : 'var(--color-button, #fff)'};
         color: ${isActive ? 'var(--color-button, #fff)' : 'var(--color-button-text, #000)'};
         border: 1px solid var(--color-button-text, #000);
         border-radius: 4px;
         cursor: pointer;
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-weight: ${isActive ? 'bold' : 'normal'};
         transition: all 0.2s;
       `;
@@ -222,6 +222,18 @@
       
       // Scroll to top of blog section
       blogArticles.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    
+    // Remove existing Shopify pagination if present
+    const oldShopifyPagination = document.querySelector('.pagination-wrapper');
+    if (oldShopifyPagination) {
+      oldShopifyPagination.remove();
+    }
+    
+    // Remove rel="next" link tag if present
+    const nextLink = document.querySelector('link[rel="next"]');
+    if (nextLink) {
+      nextLink.remove();
     }
     
     // Initial setup
