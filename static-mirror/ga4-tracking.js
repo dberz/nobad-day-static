@@ -1,20 +1,25 @@
 // Google Analytics 4 (GA4) Tracking
 // Measurement ID: G-BM323918MC
 
-(function() {
-  // Load gtag.js
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-BM323918MC', {
-    'page_path': window.location.pathname + window.location.search,
-    'page_title': document.title
-  });
+// Initialize dataLayer
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-BM323918MC', {
+  'page_path': window.location.pathname + window.location.search,
+  'page_title': document.title,
+  'page_location': window.location.href
+});
 
-  // Load the GA4 script
-  var script = document.createElement('script');
-  script.async = true;
-  script.src = 'https://www.googletagmanager.com/gtag/js?id=G-BM323918MC';
-  document.head.appendChild(script);
-})();
-
+// Track page views on navigation (for SPA-like behavior)
+if (window.history && window.history.pushState) {
+  var originalPushState = window.history.pushState;
+  window.history.pushState = function() {
+    originalPushState.apply(window.history, arguments);
+    gtag('config', 'G-BM323918MC', {
+      'page_path': window.location.pathname + window.location.search,
+      'page_title': document.title,
+      'page_location': window.location.href
+    });
+  };
+}
