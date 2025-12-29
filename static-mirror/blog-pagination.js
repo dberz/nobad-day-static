@@ -9,10 +9,7 @@
     if (!blogArticles) return;
     
     const articles = Array.from(blogArticles.querySelectorAll('.blog-articles__article'));
-    if (articles.length <= POSTS_PER_PAGE) {
-      // No pagination needed if we have 12 or fewer posts
-      return;
-    }
+    // Always show pagination controls, even if all posts fit on one page
     
     // Get current page from URL
     const urlParams = new URLSearchParams(window.location.search);
